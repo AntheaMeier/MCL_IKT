@@ -18,11 +18,14 @@
     "ikt",
     "htw",
     "fiw"
-],
-"author": "A.Meier",
+  ],
+  "author": "A.Meier",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AntheaMeier/MCL_IKT/issues"
   },
-  "homepage": "https://github.com/AntheaMeier/MCL_IKT#readme"
+  "homepage": "https://github.com/AntheaMeier/MCL_IKT#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
