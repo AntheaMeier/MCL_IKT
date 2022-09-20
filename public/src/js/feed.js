@@ -12,9 +12,11 @@ für das Verbinden mit dem "Speichern-Button" und den
 direkten Zugriff auf Steuerlemente. */
 let form = document.querySelector('form');
 let titleInput = document.querySelector('#title');
+let purposeInput = document.querySelector('#purpose');
+let checklist_item1Input = document.querySelector('#checklist_item1');
+let checklist_item2Input = document.querySelector('#checklist_item2');
+let checklist_item3Input = document.querySelector('#checklist_item3');
 let locationInput = document.querySelector('#location');
-
-
 
 /* Variablen die für die Kamera-Einbindung und Bildhochladen */
 let videoPlayer = document.querySelector('#player');
@@ -26,6 +28,10 @@ let imagePickerArea = document.querySelector('#pick-image');
 /* Variablen die für die sendDataToBackend() wichtig sind */
 let file = null;
 let titleValue = '';
+let purposeValue = '';
+let checklist_item1Value = '';
+let checklist_item2Value = '';
+let checklist_item3Value = '';
 let locationValue = '';
 
 let imageURI = '';
@@ -204,6 +210,30 @@ function createCard(card) {
   cardTitleTextElement.textContent = card.title;
   cardTitleTextElement.classList.add('whiteText');
   cardTitle.appendChild(cardTitleTextElement);
+
+  let cardPurposeText = document.createElement('div');
+  cardPurposeText.className = 'mdl-card__supporting-text';
+  cardPurposeText.textContent = card.purpose;
+  cardPurposeText.style.textAlign = 'center';
+  cardWrapper.appendChild(cardPurposeText);
+
+  let cardChecklistItem1Text = document.createElement('div');
+  cardChecklistItem1Text.className = 'mdl-card__supporting-text';
+  cardChecklistItem1Text.textContent = card.checklist_item1;
+  cardChecklistItem1Text.style.textAlign = 'center';
+  cardWrapper.appendChild(cardChecklistItem1Text);
+
+  let cardChecklistItem2Text = document.createElement('div');
+  cardChecklistItem2Text.className = 'mdl-card__supporting-text';
+  cardChecklistItem2Text.textContent = card.checklist_item2;
+  cardChecklistItem2Text.style.textAlign = 'center';
+  cardWrapper.appendChild(cardChecklistItem2Text);
+
+  let cardChecklistItem3Text = document.createElement('div');
+  cardChecklistItem3Text.className = 'mdl-card__supporting-text';
+  cardChecklistItem3Text.textContent = card.checklist_item3;
+  cardChecklistItem3Text.style.textAlign = 'center';
+  cardWrapper.appendChild(cardChecklistItem3Text);
   
   let cardSupportingText = document.createElement('div');
   cardSupportingText.className = 'mdl-card__supporting-text';
@@ -248,10 +278,15 @@ function updateUI(data) {
     }
 }
 
-/* funktion, die neue Posts (Titel, Lactaion und Bilddatei) ans Backend schickt */
+/* funktion, die neue Posts (Titel, Loctation und Bilddatei) ans Backend schickt */
 function sendDataToBackend() {
     const formData = new FormData();
     formData.append('title', titleValue);
+    formData.append('purpose', purposeValue);
+    formData.append('cheklist_item1', checklist_item1Value);
+    formData.append('cheklist_item2', checklist_item2Value);
+    formData.append('cheklist_item3', checklist_item3Value);
+    formData.append('location', locationValue);
     formData.append('file', file);
 
     console.log('formData', formData)
@@ -270,6 +305,10 @@ function sendDataToBackend() {
         console.log('data ...', data);
         const newPost = {
             title: data.title,
+            purpose: data.purpose,
+            checklist_item1: data.cheklist_item1,
+            checklist_item2: data.cheklist_item2,
+            checklist_item3: data.cheklist_item3,
             location: data.location,
             image_id: imageURI
         }
@@ -304,9 +343,18 @@ form.addEventListener('submit', event => {
     closeCreatePostModal();
 
     titleValue = titleInput.value;
+    purposeValue = purposeInput.value;
+    checklist_item1Value = checklist_item1Input.value;
+    checklist_item2Value = checklist_item2Input.value;
+    checklist_item3Value = checklist_item3Input.value;
+
     locationValue = locationInput.value;
     
     console.log('titleInput', titleValue)
+    console.log('purposeInput', purposeValue)
+    console.log('checklist_item1Input', checklist_item1Value)
+    console.log('checklist_item2Input', checklist_item2Value)
+    console.log('checklist_item3Input', checklist_item3Value)
     console.log('locationInput', locationValue)
     
     console.log('file', file)
@@ -317,6 +365,10 @@ form.addEventListener('submit', event => {
                 let post = {
                     id: new Date().toISOString(),
                     title: titleValue,
+                    purpose: purposeValue,
+                    checklist_item1: checklist_item1Value,
+                    checklist_item2: checklist_item2Value,
+                    checklist_item3: checklist_item3Value,
                     location: locationValue,
                     
                     image_id: file
