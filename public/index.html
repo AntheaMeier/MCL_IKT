@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="/src/css/app.css">
   <link rel="stylesheet" href="/src/css/feed.css">
   <link rel="manifest" href="manifest.webmanifest">
+
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="My CheckList">
@@ -33,6 +34,7 @@
 </head>
 <body>
 
+ <!--Main Menue Navigation--> 
 <div id="app">
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
@@ -69,6 +71,8 @@
         </div>
       </nav>
     </div>
+    
+    <!--Formular der Upload-Seite -->
     <main class="mdl-layout__content mat-typography">
       <form>
         <div id="create-post">
@@ -86,18 +90,33 @@
             <input class="mdl-textfield__input" type="text" id="title">
             <label class="mdl-textfield__label" for="title" name="title">Kategorie</label>
           </div>
+           <!-- Eingabefeld: Purpose-->
+           <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="purpose">
+            <label class="mdl-textfield__label" for="purpose" name="purpose">Zweck/Anlass</label>
+          </div> 
+          <!-- Eingabefeld: Checklist_Item1-->
+          <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="checklist_item1">
+            <label class="mdl-textfield__label" for="checklist_item1" name="checklist_item1">Was möchte ich als Erstes listen?</label>
+          </div> 
+          <!-- Eingabefeld: Checklist_Item2-->
+          <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="checklist_item2">
+            <label class="mdl-textfield__label" for="checklist_item2" name="checklist_item2">Was möchte ich als Zweites listen?</label>
+          </div> 
+          <!-- Eingabefeld: Checklist_Item3-->
+          <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="checklist_item3">
+            <label class="mdl-textfield__label" for="checklist_item3" name="checklist_item3">Was möchte ich als Drittes listen?</label>
+          </div> 
+          
           <!--Eingabefeld: Location-->
           <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="manual-location">
             <input class="mdl-textfield__input" type="text" id="location">
             <label class="mdl-textfield__label" for="location" name="location">Erstellungsort manuell eingeben</label>
           </div>
-
-          <!--Eingabefeld: Purpose-->
-          <!-- <div class="input-section mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" id="purpose">
-            <label class="mdl-textfield__label" for="purpose" name="purpose">Zweck/Anlass</label>
-          </div> -->
-          
+ 
           <!--Geo-Location: Button und Spinner sollen zeigen was passiert-->
           <div class="input-section">
             <h6> oder stattdessen Location-Finder nutzen</h6>
