@@ -1,0 +1,28 @@
+{
+  "name": "MyCheckList_IKT2022",
+  "version": "1.0.0",
+  "description": "PWA MyCheckList",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntheaMeier/MCL_IKT.git"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "ikt",
+    "htw",
+    "fiw"
+],
+"author": "A.Meier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntheaMeier/MCL_IKT/issues"
+  },
+  "homepage": "https://github.com/AntheaMeier/MCL_IKT#readme"
+}
