@@ -120,8 +120,11 @@ self.addEventListener('sync', event => {
                         aus der IndexDB an das Backend geschickt werden */
                         const formData = new FormData();
                         formData.append('title', data.title);
+                        formData.append('purpose', data.purpose);
+                        formData.append('checklist_item1', data.checklist_item1);
+                        formData.append('checklist_item2', data.checklist_item2);
+                        formData.append('checklist_item3', data.checklist_item3);
                         formData.append('location', data.location);
-                        
                         formData.append('file', data.image_id);
 
                         console.log('formData', formData)
