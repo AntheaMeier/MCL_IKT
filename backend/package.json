@@ -1,0 +1,29 @@
+{
+  "name": "Backend for MCL IKT22",
+  "version": "1.0.0",
+  "description": "Backend für IKT PWA MyCheckList mit IndexDB, Kameraanbindung, Geolocation und Push-Notification",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web-push": "web-push"
+  },
+  "keywords": [
+    "REST-API"
+  ],
+  "author": "A.Meier",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^6.6.1",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "web-push": "^3.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
