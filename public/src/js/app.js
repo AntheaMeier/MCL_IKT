@@ -22,6 +22,7 @@ function displayConfirmNotification() {
     new Notification('Successfully subscribed!', options);
 }*/
 
+
 /* Benachrichtigungen mittels Notification-API über den SW und mit showNatification()
 des SW  */
 function displayConfirmNotification() {
@@ -71,7 +72,7 @@ function configurePushSubscription() {
         .then( sub => {
             if(sub === null) {
                 // Erzeugen einer neuen Subscription
-                let vapidPublicKey = 'BG8l2QAC-tH8DSO9IBkMU2mHu5EOvrQbROKJLKDadgzojc-cpWFaO5v9Yu9UFaTIi3EJGqdyMYgbKDYfdecswKo';
+                let vapidPublicKey = 'BOdbH2QnVdRiADUU_WV5jp4yLhOC-i6q9HC57vlKPb2oe5YQu1XM4ALBR-u-lrnzI39ajMZaGz8agAYtYm_yQyo';
                 //zum Schützen die vapidPublicKey als ein Base64-ArrayBuffer schützt die Subscription
                 let convertedVapidPublicKey = urlBase64ToUint8Array(vapidPublicKey);
                 return swReg.pushManager.subscribe({
