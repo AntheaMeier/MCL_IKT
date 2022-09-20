@@ -47,7 +47,7 @@ router.post('/', upload.single('file'), async(req, res) => {
     } else {
         const newPost = new Post({
             title: req.body.title,
-            purpose: 'Zweck/Anlass: ' + req.body.purpose,
+            purpose: 'Anlass: ' + req.body.purpose,
             checklist_item1: '- ' + req.body.checklist_item1,
             checklist_item2: '- ' + req.body.checklist_item2,
             checklist_item3: '- ' + req.body.checklist_item3,
