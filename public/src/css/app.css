@@ -1,0 +1,14 @@
+.text-center {
+  text-align: center;
+}
+
+.drawer-option {
+  padding: 16px;
+}
+
+/* falls die Notification API nicht unterstützt wird, zeigen wir den Benachrichtiguns
+Button standardmäßig aus - in der app.js wird geprüft ob die API unterstützt wird und 
+falls ja, zeigen wir den Button */
+.enable-notifications {
+  display: none;
+}

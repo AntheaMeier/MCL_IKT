@@ -1,0 +1,44 @@
+{
+    "name": "Piece of mind with MyCheckList",
+    "short_name": "MyCheckList",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fc5454",
+    "description": "Eine PWA zum Anlegen von Checklisten",
+    "lang": "de-DE",
+    "dir": "ltr",
+    "orientation": "portrait-primary",
+    "theme-color": "#607d8b",
+    "icons": [
+      {
+          "src": "/src/images/icons/mcl48x48.png",
+          "type": "image/png",
+          "sizes": "48x48"
+      },
+      {
+          "src": "/src/images/icons/mcl72x72.png",
+          "type": "image/png",
+          "sizes": "72x72"
+      },
+      {
+          "src": "/src/images/icons/mcl96x96.png",
+          "type": "image/png",
+          "sizes": "96x96"
+      },
+      {
+          "src": "/src/images/icons/mcl128x128.png",
+          "type": "image/png",
+          "sizes": "128x128"
+      },
+      {
+          "src": "/src/images/icons/mcl256x256.png",
+          "type": "image/png",
+          "sizes": "256x256"
+      },
+      {
+          "src": "/src/images/icons/mcl484x484.png",
+          "type": "image/png",
+          "sizes": "484x484"
+      }
+    ]
+  }
