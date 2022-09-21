@@ -29,21 +29,21 @@ function displayConfirmNotification() {
     if('serviceWorker' in navigator) {
         let options = { 
             body: 'You successfully subscribed to our Notification service!', 
-            icon: 'src/images/icons/ios-mcl57x57.png', 
+            icon: '/src/images/icons/ios-mcl57x57.png', 
             lang: 'de-DE',
             vibrate: [100, 50, 200],
             /* das Gerät vibriert 100 Millisekunden, 
             dann ist 50 Millisekunden Pause und dann vibriert es 
             nochmal für 200 Millisekunden.  */
-            badge: 'src/images/icons/ios-mcl76x76.png', // falls nict genug desplay Platz da ist
+            badge: '/src/images/icons/ios-mcl76x76.png', // falls nict genug desplay Platz da ist
             tag: 'confirm-notification',
             renotify: true,
             /* renotify gehört zu tag. Wenn der Wert true ist, dann 
             wird die Nutzerin auch dann informiert, wenn eine neue 
             Nachricht zum selben tag angekommen ist. Sonst nicht. */
             actions: [
-                { action: 'confirm', title: 'Ok', icon: 'src/images/icons/ios-mcl76x76.png' },
-                { action: 'cancel', title: 'Cancel', icon: 'src/images/icons/ios-mcl76x76.png'},
+                { action: 'confirm', title: 'Ok', icon: '/src/images/icons/ios-mcl76x76.png' },
+                { action: 'cancel', title: 'Cancel', icon: '/src/images/icons/ios-mcl76x76.png'},
             ]
         }
         navigator.serviceWorker.ready

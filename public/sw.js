@@ -1,7 +1,7 @@
 importScripts('/src/js/idb.js');
 importScripts('/src/js/db.js');
 
-const CACHE_VERSION = 61;
+const CACHE_VERSION = 63;
 const CURRENT_STATIC_CACHE = 'static-v'+CACHE_VERSION;
 const CURRENT_DYNAMIC_CACHE = 'dynamic-v'+CACHE_VERSION;
 
@@ -16,10 +16,12 @@ self.addEventListener('install', event => {
                 cache.addAll([ // alles speichern, dass unsere App ausmacht
                     '/',
                     '/index.html',
+                    '/about/index.html',
                     '/src/js/app.js',
                     '/src/js/feed.js',
                     '/src/js/material.min.js',
                     '/src/js/idb.js',
+                    '/src/css/about.css',
                     '/src/css/app.css',
                     '/src/css/feed.css',
                     '/src/images/mcl1200.jpg',
