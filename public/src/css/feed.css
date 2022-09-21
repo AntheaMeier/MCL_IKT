@@ -25,7 +25,8 @@
     margin: auto;
 }
 
-/* Zum Unsichtbarmachen des Loader bei der GeoLocation und des ImgaePickers*/
+/* Zum Unsichtbarmachen des Loader bei der GeoLocation und des ImagePickers, dieser ist bei mir jedoch
+immer sichtbar geschaltet*/
 #create-post #pick-image, #create-post #location-loader {
     display: none;
 }
@@ -73,6 +74,8 @@
     display: none;
 }
 
+
+
 /* to be responsive */
 @media (min-width: 600px) {
     .shared-moment-card.mdl-card {
@@ -82,26 +85,32 @@
 
 /* to be responsive */
 @media (min-width: 1200px) {
-    .shared-moment-card.mdl-card {
+    .shared-moment-card .mdl-card {
         width: 45%;
     }
 }
 
 /* to be responsive */
 .shared-moment-card .mdl-card__title {
-    height: 350px; /* % wäre besser */
+      height: 200px;
+    
 }
 
 /* to be responsive */
 @media (min-height: 600px) {
     .shared-moment-card .mdl-card__title {
-        height: 400px;  /* % wäre besser */
+       height: 550px; 
+        
+        
     }
 }
 
 /* to be responsive */
 @media (min-height: 1200px) {
     .shared-moment-card .mdl-card__title {
-        height: 580px;  /* % wäre besser */
+        height: 380px;  
+        
+    
+        
     }
 }		
