@@ -216,6 +216,7 @@ function createCard(card) {
   cardPurposeText.className = 'mdl-card__supporting-text';
   cardPurposeText.textContent = card.purpose;
   cardPurposeText.style.textAlign = 'center';
+  cardPurposeText.style.fontWeight = 'bold';
   cardWrapper.appendChild(cardPurposeText);
 
   let cardChecklistItem1Text = document.createElement('div');

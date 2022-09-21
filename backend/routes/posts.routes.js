@@ -51,7 +51,7 @@ router.post('/', upload.single('file'), async(req, res) => {
             checklist_item1: '- ' + req.body.checklist_item1,
             checklist_item2: '- ' + req.body.checklist_item2,
             checklist_item3: '- ' + req.body.checklist_item3,
-            location: 'Diese Checkliste wurde an folgendem Ort erstellt: ' + req.body.location + '.',
+            location: 'Diese Checkliste wurde in '  + req.body.location +' erstellt.',
             image_id: req.file.filename
         })
         console.log('newPost', newPost)
