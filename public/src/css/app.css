@@ -6,6 +6,14 @@
   padding: 16px;
 }
 
+.dove {
+  color: #607d8b;
+}
+
+.red {
+  color: #fc5454;
+}
+
 /* falls die Notification API nicht unterstützt wird, zeigen wir den Benachrichtiguns
 Button standardmäßig aus - in der app.js wird geprüft ob die API unterstützt wird und 
 falls ja, zeigen wir den Button */
