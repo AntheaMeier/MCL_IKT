@@ -154,8 +154,9 @@ function initializeMedia() {
         videoPlayer.style.display = 'block'; //macht den Videoplayer sichtbar
         imagePickerArea.style.display = 'block'; //macht den Filepicker sichtbar auch wenn Cam erlaubt
     })
-    .catch( err => { // nur falls kein Kaerazugriff möglich ist, soll die Bildhochladoption erfolgen
-        imagePickerArea.style.display = 'block'; //macht den Filepicker sichtbar falls kein Kamerazugriff
+    .catch( err => { // falls kein Kamerazugriff möglich ist, soll der Kamerabildspeicher-Button nicht gezeigt werden
+        imagePickerArea.style.display = 'block'; //macht den Filepicker sichtbar ..... ist aber absichtlich permanet so
+        captureButton.style.display = 'none';
     });
 }
 
