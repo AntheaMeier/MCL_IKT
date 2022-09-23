@@ -45,6 +45,7 @@ immer sichtbar geschaltet*/
   display: block;
 }
 
+
 .floating-button {
   z-index: 1000;
   position: fixed;
