@@ -29,11 +29,11 @@ ausführen, um das Backend zu starten und zum automatischen Anlegen einer zum Pr
 
 ## 2) Die Nutzung der Anwendung (MyCheckList - V.0.1)
 
-Auf der Startseite können erstens die Übersicht über alle aktuelle angelegten Checklisten eingesehen werden - zu Beginn sind dort noch keine (nur eine Beispiel-Checklist ist für die Semesteraufgabenabgabe als Bilddatei eingebunden).
+Auf der Startseite können erstens die Übersicht über alle aktuell angelegten Checklisten eingesehen werden - zu Beginn sind dort noch keine (nur eine Beispiel-Checklist ist für die Semesteraufgabenabgabe als Bilddatei eingebunden).
 
 Auf der Startseite können zweitens über das rote Plus-Icon das Eingabeformular um eine neue Checkliste zu erstellen, geöffnet werden.
 
-Nun kann eine Kategorie für die zu erstellende Checkliste frei gewählt werden, z.B. Reisen (Diese Wort erschein dann später als ein Titel auf dem Banner-Bild. Als nächstes wird der Zweck bzw. der Anlass der Checkliste angegeben, z.B. "Ausflüge mit meiner 2,5 jährigen Tochter" und dann können die drei wichtigsten Dinge, die bei dem jeweiligen Anlass unbedingt dabei sein sollten und die man nicht vergessen möchte, gelistet werden.
+Nun kann eine Kategorie für die zu erstellende Checkliste frei gewählt werden, z.B. Reisen (Diese Wort erscheint dann später als Titel auf dem Banner-Bild. Als nächstes wird der Zweck bzw. der Anlass der Checkliste angegeben, z.B. "Ausflüge mit meiner 2,5 jährigen Tochter" und dann können die drei wichtigsten Dinge, die bei dem jeweiligen Anlass unbedingt dabei sein sollten und die man nicht vergessen möchte, gelistet werden.
 
 Nachdem alle textuellen Eingaben getätigt wurden, muss noch ein Banner-Bild über die Gerätekamera oder ein Dateiupload und eine Stardortangabe hinzugefügt werden. Letztere kann manuell oder über den Location-Finder Button erfolgen um den Ortungsdienst zu nutzen.
 

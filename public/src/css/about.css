@@ -8,8 +8,19 @@
   align-items: center;
 }
 
-.about-image {
+.about-image70 {
   max-width: 70%;
   margin: auto;
   display: block;
+}
+
+.about-image20 {
+  max-width: 20%;
+  margin: auto;
+  display: block;
+}
+
+.padding10 {
+  padding-left: 10%;
+  padding-right: 10%;
 }
