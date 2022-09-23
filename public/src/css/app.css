@@ -20,3 +20,9 @@ falls ja, zeigen wir den Button */
 .enable-notifications {
   display: none;
 }
+
+.about-image65 {
+  max-width: 65%;
+  margin: auto;
+  display: block;
+}
