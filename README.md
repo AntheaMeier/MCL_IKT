@@ -10,7 +10,7 @@ Voraussetzung zum Ausführen des Projektes ist die vorherige Installation von No
 
 Zum Starten des Projektes im Terminal in den Projektordner "MCL_IKT" gehen und dort 
 
-    	`npm install`
+    `npm install`
 
 ausführen, dadurch werden alle erforderlichen Abhängigkeiten installiert. Im Anschluss bitte
 
@@ -21,7 +21,7 @@ ausführen, um das Frontend zu starten und es im Browser unter localhost:8080 zu
 
 Nun ein weiteres Terminalfenster öffnen und in den Ordner "backend" wechseln und dort
     
-    	`npm run watch` 
+    `npm run watch` 
 
 ausführen, um das Backend zu starten und zum automatischen Anlegen einer zum Projekt passenden Database "posts", in welcher die mit der App erstellten Postings gespeichert werden können.
 
@@ -82,20 +82,20 @@ Somit bietet die App keine sehr langen Universallisten zu bestimmten Themen (Pac
 
 ## 5) Geplante Änderungen und Erweiterungen von V.0.1 um das Produktziel zu erreichen
 
-Kategorien sind nicht mehr frei wählbar, sondern es gibt die vier vordefinierten Bereiche: Reisen/Unterwegs, Shopping (für Einkaufslisten), Food (für Gerichte) und Outfits
+- Kategorien sind nicht mehr frei wählbar, sondern es gibt die vier vordefinierten Bereiche: Reisen/Unterwegs, Shopping (für Einkaufslisten), Food (für Gerichte) und Outfits
 
-nicht nur drei, sondern eine sehr hohe Anzahl an Dingen (Checklist-Items) listen können
+- nicht nur drei, sondern eine sehr hohe Anzahl an Dingen (Checklist-Items) listen können
 
-Diese Checklist-Items müssen auch nur beim ersten Mal getippt oder als Foto hochgeladen werden und können dann später einfach selected werden
+- Diese Checklist-Items müssen auch nur beim ersten Mal getippt oder als Foto hochgeladen werden und können dann später einfach selected werden
 
-es müssen keine Fotos und auch kein Banner-Bild hinzugefügt werden, Dateiupload und Kamerazurgriff werden optional angeboten
+- es müssen keine Fotos und auch kein Banner-Bild hinzugefügt werden, Dateiupload und Kamerazurgriff werden optional angeboten
 
-eine Standortangabe wird nicht mehr angeboten
+- eine Standortangabe wird nicht mehr angeboten
 
-Die Checklist-Items werden auch nicht nur gelistet, sondern erscheinen mit Checkboxes, so dass diese abgehakt werden können
+- Die Checklist-Items werden auch nicht nur gelistet, sondern erscheinen mit Checkboxes, so dass diese abgehakt werden können
 
-Der Bereich Outfits kann ggf. um einen Konfigurator erweitert werden, mit dem Outfit-Teile kombiniert und Kombination auch optisch als Gesamtbild gespeichert werden können
+- Der Bereich Outfits kann ggf. um einen Konfigurator erweitert werden, mit dem Outfit-Teile kombiniert und Kombination auch optisch als Gesamtbild gespeichert werden können
 
-es bedarf passwortgeschützter User-Accounts, die Unserinnen bei Bedarf mit andern Userinnen teilen können
+- es bedarf passwortgeschützter User-Accounts, die Unserinnen bei Bedarf mit andern Userinnen teilen können
 
-Push-Notificationen werden nur bei geteilten User-Accounts angeboten um informiert zu werden, wenn der andere Account User Änderungen vorgenommen hat.
+- Push-Notificationen werden nur bei geteilten User-Accounts angeboten um informiert zu werden, wenn der andere Account User Änderungen vorgenommen hat.
