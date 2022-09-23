@@ -1,6 +1,12 @@
 # MyCheckList - Version 0.1 als Progressive Web App (PWA)
 
-Dieses Projekt ist die Semesteraufgabe für das Modul "Aktuelle Trends der Informations- und Kommunikationstechnik 2022" in Form einer PWA. Diese README gibt Auskunft über die Installation, die Nutzung der hier vorliegenden PWA (V.0.1), die PWA Funktionalitäten und über das Produktziel bzw. die Vision die hinter MyCheckList steckt sowie die Änderungen zum aktuellen Projekt. Das hier vorliegende Projekt (Version 0.1) ist nur als ein erstes Inkrement von einem längerfristigen Projektvorhaben zu verstehen und dient der Entwicklerin mehr als erste Skizze für die spätere App und um die Integration von PWA Funktionalitäten zu üben.
+Dieses Projekt ist die Semesteraufgabe für das Modul "Aktuelle Trends der Informations- und Kommunikationstechnik 2022" in Form einer PWA. Diese README gibt Auskunft über 
+- die Installation, 
+- die Nutzung der hier vorliegenden PWA (V.0.1), 
+- die PWA Funktionalitäten und 
+- das Produktziel bzw. die Vision die hinter MyCheckList steckt sowie 
+- die Änderungen zum aktuellen Projekt. 
+Das hier vorliegende Projekt (Version 0.1) ist nur als ein erstes Inkrement von einem längerfristigen Projektvorhaben zu verstehen und dient der Entwicklerin mehr als erste Skizze für die spätere App und um die Integration von PWA Funktionalitäten zu üben.
 
 
 ## 1) Die Installation von MyCheckList - V.0.1
